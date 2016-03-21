@@ -210,7 +210,8 @@
           var type = (slider.vars.controlNav === "thumbnails") ? 'control-thumbs' : 'control-paging',
               j = 1,
               item,
-              slide;
+              slide,
+              altText;
 
           slider.controlNavScaffold = $('<ol class="'+ namespace + 'control-nav ' + namespace + type + '"></ol>');
 
